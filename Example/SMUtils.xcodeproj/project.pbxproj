@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0063D5E9888FCDAEA032EE5E /* Pods-SMUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMUtils_Example.release.xcconfig"; path = "Target Support Files/Pods-SMUtils_Example/Pods-SMUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
-		07A86A2B63A3FADF2EE12F1F /* SMUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SMUtils.podspec; path = ../SMUtils.podspec; sourceTree = "<group>"; };
+		07A86A2B63A3FADF2EE12F1F /* SMUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SMUtils.podspec; path = ../SMUtils.podspec; sourceTree = "<group>"; };
 		52D32CAB0325FDC6125047A6 /* Pods-SMUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMUtils_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SMUtils_Tests/Pods-SMUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SMUtils_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMUtils_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,12 +59,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		712D972C6E35EDC6022A5250 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		712D972C6E35EDC6022A5250 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		771633E20577334F679E3DB2 /* Pods-SMUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMUtils_Example.debug.xcconfig"; path = "Target Support Files/Pods-SMUtils_Example/Pods-SMUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		973765BCF642D7429AD21D14 /* Pods_SMUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C2123FB8DA487A8DFF09DCC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9C2123FB8DA487A8DFF09DCC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B5BEB54687762582E45279AE /* Pods_SMUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B704179938FD0B688AEDB2D6 /* Pods-SMUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMUtils_Tests.release.xcconfig"; path = "Target Support Files/Pods-SMUtils_Tests/Pods-SMUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				52D32CAB0325FDC6125047A6 /* Pods-SMUtils_Tests.debug.xcconfig */,
 				B704179938FD0B688AEDB2D6 /* Pods-SMUtils_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = tuzhifei;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = G3YBNP29DB;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 771633E20577334F679E3DB2 /* Pods-SMUtils_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G3YBNP29DB;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SMUtils/SMUtils-Prefix.pch";
 				INFOPLIST_FILE = "SMUtils/SMUtils-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 0063D5E9888FCDAEA032EE5E /* Pods-SMUtils_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G3YBNP29DB;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SMUtils/SMUtils-Prefix.pch";
 				INFOPLIST_FILE = "SMUtils/SMUtils-Info.plist";
